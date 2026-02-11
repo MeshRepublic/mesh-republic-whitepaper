@@ -2,7 +2,7 @@
 ## A Framework for Algorithmic Constitutional Governance
 ### Antitrust 2.0 and the Engineering of Distributed Sovereignty
 
-**Version 2.0 — February 2026**
+**Version 3.0 — February 2026**
 
 **Primary Author:** Lee Hansen  
 **License:** GNU Affero General Public License v3.0 (AGPL-3.0)  
@@ -265,6 +265,38 @@ To forge an identity, an attacker would need to fabricate fake utility bills, fa
 Furthermore, the chain state of every Fractal ID is periodically anchored to the Bitcoin blockchain via the Layer 2 governance chain, providing an immutable external timestamp that prevents retroactive fabrication of attestation history. An attacker cannot insert years of fake attestations into a chain whose root hashes are already frozen in Bitcoin's ledger. As the network grows, the cost of forging a convincing identity does not merely scale with validation depth—it scales combinatorially with the size, interconnectedness, and temporal depth of the network itself, converging on mathematical impossibility.
 
 The innovation here is that each person's identity is a blockchain — a chronologically hashed chain of attestation blocks. That gives you three properties simultaneously: tamper evidence (any alteration breaks the hash chain), temporal proof (the order of attestations is cryptographically enforced), and external finality (periodic anchoring to Bitcoin makes the chain's history immutable even if the local device is compromised). It's the difference between a pile of credentials and a ledger of trust.
+
+### **4.3.4.1 Longest Chain Selection**
+
+When multiple identity chains exist for what appears to be the same individual, the Mesh Republic employs Bitcoin's "longest chain wins" principle—but adapted for identity validation rather than transaction ordering.
+
+**Chain Selection Criteria (in priority order):**
+
+1. **Chain Length (Primary):** The identity chain with the most attestations accumulated over the longest time period is presumed canonical. A 5-year-old chain with 1,000 attestations defeats a 1-month-old chain with 100 attestations, even if the shorter chain has higher-quality attestations.  
+2. **Attestation Quality (Secondary):** When chains are similar in length, attestation quality breaks ties:  
+   * Attestations from other long-chain identities carry more weight  
+   * Familial attestations (blood relatives) carry more weight than social  
+   * Legacy document attestations (government ID, birth certificates) provide strong initial bootstrap but diminish in importance as the chain matures  
+   * Continuous device attestations carry more weight than sporadic  
+3. **Anchoring Depth (Tertiary):** Identity chains anchored more deeply to Bitcoin's blockchain—meaning earlier and more frequent anchoring—carry more weight. An identity chain whose root attestations are anchored 1,000 Bitcoin blocks deep is harder to forge than one anchored 10 blocks deep.  
+4. **Network Effects (Quaternary):** Identities with attestations from many other validated identities (high degree in the trust graph) carry more weight than isolated chains.
+
+**Sybil Attack Economics:**
+
+An attacker attempting to forge a convincing identity must not only fabricate the target chain but also fabricate the chains of every attesting party recursively. The cost compounds exponentially:
+
+* **Week 1 Attack Cost:** $X (fabricate 5 fake attestations)  
+* **Year 1 Attack Cost:** $100X (fabricate 50 attestations from validated CAs)  
+* **Year 5 Attack Cost:** $10,000X (fabricate 500 attestations, each from CAs with their own 5-year chains)
+
+The "longest chain wins" principle makes identity forgery economically irrational for any identity that has matured beyond the bootstrapping phase. A 5-year-old identity with continuous attestation accumulation cannot be meaningfully impersonated without resources exceeding the value of the impersonation itself.
+
+**Conflict Resolution:**
+
+* **Legitimate Name Collision:** Two people named "Lee Hansen" in different communities will have entirely different trust graphs and attestation chains. Zero-knowledge proofs allow both to prove their identity without revealing which Lee Hansen they are.  
+* **Identity Theft Attempt:** An attacker creating a fake "Lee Hansen" chain will have a much shorter chain with lower-quality attestations (likely self-signed or from other new fake identities). The legitimate Lee Hansen's longer chain automatically wins.  
+* **Chain Fork (Genuine Split):** In rare cases where an identity legitimately splits (e.g., witness protection, abuse survivor), the new chain begins with a cryptographic declaration of intentional forking, signed by the original chain's key. This prevents the new chain from being dismissed as a Sybil attack while preserving the integrity of the original chain's history.
+
 
 #### 4.3.5 Bootstrapping from Legacy Systems
 
