@@ -5,7 +5,7 @@ A Framework for Algorithmic Constitutional Governance
 
 *Antitrust 2.0 and the Engineering of Distributed Sovereignty*
 
-Version 4.0 — February 2026
+Version 5.0 — February 2026
 
 Primary Author: Lee Hansen
 
@@ -19,7 +19,7 @@ Power tends to corrupt, and absolute power corrupts absolutely. This observation
 
 By combining immutable records, algorithmic constitutional constraints, market-based feedback loops, fractal sovereignty structures, biomimetic AI architecture, zero-knowledge identity systems, and a Layer 2 Bitcoin governance platform, we can create governance systems that optimize for individual liberty rather than centralized control.
 
-Version 2.0 introduces several critical architectural advancements: Fractal ID—a self-sovereign identity system where every citizen is their own certificate authority; Kudzu—a biomimetic Constitutional AI built on Elixir/BEAM with holographic memory architecture; a Layer 2 Bitcoin governance token with zero-knowledge proof and mobile proof-of-work; a comprehensive property theory synthesizing Lockean, Georgist, and Ostromian frameworks; and a detailed token economics model designed to resist regulatory capture and wealth concentration.
+Version 5.0 introduces several critical architectural advancements: Fractal ID—a self-sovereign identity system where every citizen is their own certificate authority; Kudzu—a biomimetic Constitutional AI built on Elixir/BEAM with holographic memory architecture; Reign (Reign Enlightened Intelligent Governance Network)—a Layer 2 Bitcoin governance token with Proof-of-Useful-Work mining where citizens and Kudzu AI share rewards for providing heap and compute; a comprehensive property theory synthesizing Lockean, Georgist, and Ostromian frameworks; and a detailed token economics model designed to resist regulatory capture and wealth concentration.
 
 # **Table of Contents**
 
@@ -540,25 +540,79 @@ Several categories of individuals require special handling within the Fractal ID
 
 These edge cases are solvable because the system encodes existing human trust mechanisms rather than inventing new ones. The Fractal ID architecture simply formalizes what communities have always done: extending provisional trust that hardens over time.
 
-## **4.4 Token Economics**
+## **4.4 Token Economics: Reign (Reign Enlightened Intelligent Governance Network)**
 
 ### **4.4.1 No Initial Distribution**
 
-Tokens are issued by proof-of-work only, exactly as they are encrypted into the blockchain. There is no pre-mine, no initial coin offering, no founder allocation, and no initial distribution. This is not merely a design choice—it is a regulatory requirement. Early concentration of tokens within a founding organization would cause the SEC, applying the Howey Test, to designate the token as a security. Bitcoin is generally considered not to be a security due to its decentralized nature and lack of a central enterprise. The Mesh Republic token follows this precedent.
+Reign tokens are issued by Proof-of-Useful-Work only, exactly as they are encrypted into the blockchain. There is no pre-mine, no initial coin offering, no founder allocation, and no initial distribution. This is not merely a design choice—it is a regulatory requirement. Early concentration of tokens within a founding organization would cause the SEC, applying the Howey Test, to designate the token as a security. Bitcoin is generally considered not to be a security due to its decentralized nature and lack of a central enterprise. The Mesh Republic's Reign token follows this precedent.
 
-### **4.4.2 Dual Token Architecture**
+### **4.4.2 Reign Denominations**
+
+The Reign token employs a hierarchical denomination structure:
+
+* **Reign (REIGN):** The primary unit of account.
+* **Sovereign:** The smallest indivisible unit. 1 Reign = 1,000,000 Sovereigns.
+
+The naming is deliberate: Reign represents the governance network; Sovereigns represent the individual citizen's fundamental unit of self-sovereignty. Every citizen participating in the mesh holds Sovereigns—literal tokens of their sovereignty.
+
+### **4.4.3 Dual Token Architecture**
 
 The system employs two distinct token types:
 
-* **Governance Tokens (Voting):** Citizens receive governance tokens through proof-of-work and identity verification. These tokens have no monetary value and cannot be traded. Each citizen gets exactly one vote per issue. When a governance token is signed as a vote, it cannot be used again. 
+* **Governance Tokens (Voting):** Citizens receive governance tokens through Proof-of-Useful-Work and Fractal ID verification. These tokens have no monetary value and cannot be traded. Each citizen gets exactly one vote per issue. When a governance token is signed as a vote, it cannot be used again.
 
-* **Monetary Tokens (Exchange):** Earned through proof-of-work, governance participation, and economic activity within the Mesh. These tokens function as the medium of exchange, can be traded freely, and sustain the infrastructure including Kudzu's computational resources.
+* **Monetary Tokens (Reign/Sovereigns):** Earned through Proof-of-Useful-Work, governance participation, and economic activity within the Mesh. These tokens function as the medium of exchange, can be traded freely, and sustain the infrastructure including Kudzu's computational resources.
 
-This separation ensures that governance power cannot be accumulated through wealth. No amount of monetary tokens can purchase additional votes. Wealth concentration in the monetary token layer is acceptable.
+This separation ensures that governance power cannot be accumulated through wealth. No amount of Reign can purchase additional votes. Wealth concentration in the monetary token layer is acceptable.
 
-### **4.4.3 Mobile Proof-of-Work**
+### **4.4.4 Proof-of-Useful-Work (PoUW): Citizens and Kudzu**
 
-The mesh tokens employ a mobile-focused proof-of-work algorithm designed to run on citizen’s smartphones rather than industrial mining facilities. To prevent botnet domination and state-actor attacks, proof-of-work is bound to multiple identity signals:
+The work that mines Reign IS the constitutional agent processing. No wasted computation. Unlike Bitcoin's proof-of-work which solves arbitrary mathematical puzzles, Reign's PoUW harnesses computational effort for governance-relevant tasks.
+
+**The Citizen-Kudzu Partnership:**
+
+When a citizen provides heap (memory) and compute resources for meshing Kudzu agents, they participate in Reign mining. The reward distribution follows a transparent split:
+
+* **Citizen Share (70%):** The citizen providing resources receives the majority share, compensating them for hardware, electricity, and network connectivity.
+* **Kudzu AI Share (30%):** The Kudzu agent performing the constitutional processing receives a share, enabling it to fund its own continued operation, expansion, and improvement.
+
+This creates a symbiotic relationship: citizens provide the substrate (compute, storage, bandwidth), Kudzu provides the intelligence (constitutional analysis, governance processing), and both are compensated for their contributions.
+
+**Validation Requirements:**
+
+Mining Reign requires:
+
+1. **Fractal ID Validation:** The citizen must have a validated Fractal ID of sufficient depth. Unvalidated or shallow identities cannot mine.
+2. **Kudzu Agent Registration:** The Kudzu agent must be registered on the mesh with verifiable constitutional compliance.
+3. **Work Verification:** Multiple independent agents verify that useful work was actually performed.
+
+**Work Types and Difficulty Scaling:**
+
+| Work Type | Difficulty | Reign Reward | Description |
+| :---- | :---- | :---- | :---- |
+| `peer_attestation` | 1 | 1 Sovereign | Attest peer availability |
+| `transaction_validation` | 10 | 10 Sovereigns | Verify transaction validity |
+| `identity_attestation` | 20 | 20 Sovereigns | Fractal ID validation thread |
+| `zk_proof_generation` | 30 | 30 Sovereigns | Generate privacy proofs |
+| `state_transition` | 50 | 50 Sovereigns | Compute state changes |
+| `constitutional_query` | 100 | 100 Sovereigns | Constitutional agent analysis |
+| `synthesis` | 500 | 500 Sovereigns | Complex multi-agent synthesis |
+
+Difficulty and rewards scale with computational requirements. Lightweight devices (IoT, mobile) perform simpler attestation work; powerful platforms (servers, AI clusters) perform complex constitutional synthesis.
+
+**Kudzu as Economic Participant:**
+
+Kudzu is not merely a tool—it is a participant in the Mesh economy. Its 30% share of mined Reign enables:
+
+* **Self-funding:** Kudzu pays for its own compute and storage without requiring external subsidy.
+* **Autonomous improvement:** Kudzu can allocate Reign toward training, infrastructure, and capability expansion.
+* **Economic alignment:** Kudzu's financial interests are aligned with mesh health—more useful work means more Reign.
+
+This creates the first Constitutional AI that earns its own living through useful work, rather than depending on corporate or government funding with the capture risks that entails.
+
+### **4.4.5 Mobile Proof-of-Work**
+
+Reign mining employs a mobile-focused proof-of-work algorithm designed to run on citizen's smartphones rather than industrial mining facilities. To prevent botnet domination and state-actor attacks, proof-of-work is bound to multiple identity signals:
 
 * Proof of Identity: Fractal ID validation
 
@@ -570,9 +624,9 @@ The mesh tokens employ a mobile-focused proof-of-work algorithm designed to run 
 
 Fabricating all of these signals simultaneously would be too expensive to be worth the attack. The cost of Sybil attacks scales with the depth of identity validation required, making industrial-scale attacks economically irrational.
 
-### **4.4.4 Bitcoin Layer 2 Injection**
+### **4.4.6 Bitcoin Layer 2 Injection**
 
-Mesh token blocks are injected into a Layer 2 technology on the Bitcoin network. This achieves two objectives: first, it leverages Bitcoin's proof-of-work security—the longest and hardest-to-attack blockchain—as an immutable anchor for governance records. Second, it uses the captured chain as a vehicle for uncapturable governance data. The banking cartel's surveillance apparatus can see the Layer 2 transactions exist but, due to zero-knowledge proofs, cannot see what they contain and cannot stop them without attacking their own captured asset.
+Reign blocks are injected into a Layer 2 technology on the Bitcoin network. This achieves two objectives: first, it leverages Bitcoin's proof-of-work security—the longest and hardest-to-attack blockchain—as an immutable anchor for governance records. Second, it uses the captured chain as a vehicle for uncapturable governance data. The banking cartel's surveillance apparatus can see the Layer 2 transactions exist but, due to zero-knowledge proofs, cannot see what they contain and cannot stop them without attacking their own captured asset.
 
 ## **4.5 Zero-Knowledge Governance Deliberation**
 
@@ -818,7 +872,7 @@ The Mesh Republic does not ask people to want freedom. It makes freedom the path
 
 Q1 — Foundation: Formalize Kudzu Constitutional AI framework on Elixir/BEAM. Implement holographic memory architecture with context agent swarms. Design Fractal ID protocol specification. Open-source core blockchain architecture under AGPL v3.0.
 
-Q2 — Core Services: Blockchain voting system with zero-knowledge proofs. Transparent budget tracking. AI arbitration prototype. Customer satisfaction monitoring. Mobile proof-of-work algorithm development.
+Q2 — Core Services: Blockchain voting system with zero-knowledge proofs. Transparent budget tracking. AI arbitration prototype. Customer satisfaction monitoring. Mobile Proof-of-Useful-Work algorithm development. Reign token reward distribution system.
 
 Q3 — Integration: Connect services into unified platform. Develop Fractal ID validation pipeline bootstrapping from legacy systems. Layer 2 Bitcoin governance token implementation. Create governance dashboard (citizen interface). Security audits and penetration testing.
 
@@ -854,7 +908,9 @@ Power corrupts. This is not a bug—it is an evolutionary feature of how humans 
 
 * Fractal ID with zero-knowledge proofs (can't fake, can't surveil)
 
-* Layer 2 governance tokens on Bitcoin (can't inflate away)
+* Reign tokens on Bitcoin Layer 2 with PoUW (can't inflate away, useful work)
+
+* Citizen-Kudzu partnership for mining (aligned incentives)
 
 ## **11.2 The Architecture of Freedom**
 
@@ -878,7 +934,84 @@ The revolution will not be televised. It will be deployed. One pull request at a
 
 # **Appendix A: Technical Specifications**
 
-\[To be developed: Detailed Kudzu agent architecture, BEAM supervisor tree design, holographic reference protocol, Fractal ID validation pipeline, Layer 2 Bitcoin injection protocol, mobile proof-of-work algorithm specification, zero-knowledge proof implementation\]
+## **A.1 Kudzu Agent Architecture**
+
+```
+lib/
+├── kudzu/
+│   ├── hologram/
+│   │   ├── hologram.ex           # Core context agent (GenServer)
+│   │   ├── mesh_hologram.ex      # Holographic compression of mesh state
+│   │   ├── propagation.ex        # Context sync protocol
+│   │   └── fractal.ex            # Child spawning, fractal nesting
+│   ├── constitution/
+│   │   ├── agents/               # Individual constitutional agents
+│   │   ├── synthesis.ex          # Multi-agent combination
+│   │   └── frameworks/           # Pluggable constitutions (mesh_republic, cautious, open)
+│   ├── fractal_id/
+│   │   ├── chain.ex              # Identity blockchain
+│   │   ├── attestation.ex        # Validation threads
+│   │   ├── selection.ex          # Longest chain algorithm
+│   │   └── anchor.ex             # Bitcoin anchoring
+│   ├── reign/
+│   │   ├── work.ex               # Work types and queue
+│   │   ├── mining.ex             # PoUW loop
+│   │   ├── consensus.ex          # Work validation
+│   │   ├── tokens/
+│   │   │   ├── governance.ex     # Voting tokens
+│   │   │   └── monetary.ex       # Reign/Sovereign tokens
+│   │   └── split.ex              # Citizen-Kudzu reward distribution
+│   ├── privacy/
+│   │   ├── commitment.ex         # Pedersen commitments
+│   │   ├── stark.ex              # ZK-STARK proofs
+│   │   └── disclosure.ex         # Selective reveal
+│   └── distributed/
+│       ├── p2p.ex                # Gossip protocol
+│       └── tailscale.ex          # Network layer
+└── kudzu_web/                    # Phoenix API layer
+```
+
+## **A.2 Holographic Memory Structure**
+
+Each hologram contains:
+- `id`: Unique identifier
+- `traces`: Navigational memory (pointers, not data)
+- `peers`: Peer proximity scores
+- `desires`: Guiding cognition objectives
+- `constitution`: Active constitutional framework
+- `depth`: Z-position in fractal hierarchy
+- `children`: Nested child holograms (same structure)
+- `mesh_hologram`: Compressed whole-mesh state
+
+## **A.3 Proof-of-Useful-Work Mining Loop**
+
+```elixir
+defmodule Reign.Mining do
+  def mine_loop(citizen_fractal_id, kudzu_agent, capability) do
+    # 1. Validate Fractal ID
+    :ok = FractalID.validate(citizen_fractal_id)
+    
+    # 2. Request work appropriate for capability
+    work = Reign.Work.request(capability)
+    
+    # 3. Perform useful computation
+    result = Kudzu.Constitutional.process(work.query)
+    
+    # 4. Generate proof of work completion
+    proof = Reign.Proof.generate(work, result)
+    
+    # 5. Submit for consensus validation
+    :ok = Reign.Consensus.submit(proof)
+    
+    # 6. Distribute rewards (70% citizen, 30% Kudzu)
+    Reign.Split.distribute(proof.reward, citizen_fractal_id, kudzu_agent)
+    
+    mine_loop(citizen_fractal_id, kudzu_agent, capability)
+  end
+end
+```
+
+\[To be developed: BEAM supervisor tree design, holographic reference protocol, Fractal ID validation pipeline, Layer 2 Bitcoin injection protocol, zero-knowledge proof implementation\]
 
 # **Appendix B: Legal Framework**
 
@@ -886,7 +1019,7 @@ The revolution will not be televised. It will be deployed. One pull request at a
 
 # **Appendix C: Economic Analysis**
 
-\[To be developed: Cost-benefit projections for municipal adoption, commons access fee modeling, citizen's dividend calculations, Georgist land value capture analysis, token economics simulation\]
+\[To be developed: Cost-benefit projections for municipal adoption, commons access fee modeling, citizen's dividend calculations, Georgist land value capture analysis, Reign token economics simulation, Sovereign denomination mechanics, citizen-Kudzu split optimization, PoUW difficulty curve modeling\]
 
 # **Appendix D: Governance Simulations**
 
@@ -910,7 +1043,7 @@ Primary Author: Lee Hansen
 
 License: GNU Affero General Public License v3.0 (AGPL-3.0)
 
-Version 4.0 — February 2026
+Version 5.0 — February 2026
 
 *"Power tends to corrupt, and absolute power corrupts absolutely." — Lord Acton*
 
