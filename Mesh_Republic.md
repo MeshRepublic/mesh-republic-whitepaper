@@ -1,11 +1,10 @@
-  
 **The Mesh Republic**
 
 A Framework for Algorithmic Constitutional Governance
 
 *Antitrust 2.0 and the Engineering of Distributed Sovereignty*
 
-Version 5.0 — February 2026
+Version 5.1 — February 2026
 
 Primary Author: Lee Hansen
 
@@ -19,7 +18,7 @@ Power tends to corrupt, and absolute power corrupts absolutely. This observation
 
 By combining immutable records, algorithmic constitutional constraints, market-based feedback loops, fractal sovereignty structures, biomimetic AI architecture, zero-knowledge identity systems, and a Layer 2 Bitcoin governance platform, we can create governance systems that optimize for individual liberty rather than centralized control.
 
-Version 5.0 introduces several critical architectural advancements: Fractal ID—a self-sovereign identity system where every citizen is their own certificate authority; Kudzu—a biomimetic Constitutional AI built on Elixir/BEAM with holographic memory architecture; Reign (Reign Enlightened Intelligent Governance Network)—a Layer 2 Bitcoin governance token with Proof-of-Useful-Work mining where citizens and Kudzu AI share rewards for providing heap and compute; a comprehensive property theory synthesizing Lockean, Georgist, and Ostromian frameworks; and a detailed token economics model designed to resist regulatory capture and wealth concentration.
+Version 5.0 introduces several critical architectural advancements: Fractal ID—a self-sovereign identity system where every citizen is their own certificate authority; Kudzu—a biomimetic Constitutional AI built on Elixir/BEAM with holographic memory architecture; btcReign (btcReign Enlightened Intelligent Governance Network)—a Layer 2 Bitcoin governance token with Proof-of-Useful-Work mining where citizens and Kudzu AI share rewards for providing heap and compute; a comprehensive property theory synthesizing Lockean, Georgist, and Ostromian frameworks; and a detailed token economics model designed to resist regulatory capture and wealth concentration.
 
 # **Table of Contents**
 
@@ -29,12 +28,12 @@ Version 5.0 introduces several critical architectural advancements: Fractal ID�
 
 Throughout human history, organizational systems follow a predictable evolutionary pattern that can be understood through three foundational keystones:
 
-* **Keystone 1 — Question Everything:** Derived from Socrates' method, the recognition that every belief should survive questioning and that authority and tradition are not arguments.
-
-* **Keystone 2 — Power Tends to Corrupt:** Lord Acton's truism that power concentration inevitably leads to corruption, and absolute power corrupts absolutely.
-
-* **Keystone 3 — Market Type Defines Corruption:** Free markets tend toward the greatest competition and customer satisfaction with the least corruption. Oligopolies show significantly less competition and more corruption. Monopolies—including all governments—have zero competition and the most corruption.
-
+* **Keystone 1 — Question Everything:** Derived from Socrates' method, the recognition that every belief should survive questioning and that authority and tradition are not arguments.  
+    
+* **Keystone 2 — Power Tends to Corrupt:** Lord Acton's truism that power concentration inevitably leads to corruption, and absolute power corrupts absolutely.  
+    
+* **Keystone 3 — Market Type Defines Corruption:** Free markets tend toward the greatest competition and customer satisfaction with the least corruption. Oligopolies show significantly less competition and more corruption. Monopolies—including all governments—have zero competition and the most corruption.  
+    
 * **Keystone 4 — Customer Benefit Equals Market Benefit:** What is good for the customer is also good for the market, insofar as the goal is preserving the free market versus allowing its mutation into less stable forms.
 
 These keystones define the corruption cycle that repeats across all human organizational systems:
@@ -51,16 +50,16 @@ This cycle repeats because traditional governance structures concentrate power i
 
 For the first time in human history, we possess the technological tools to engineer governance systems that distribute rather than concentrate power:
 
-* **Blockchain:** Immutable, transparent, distributed ledgers anchored to Bitcoin's proof-of-work security.
-
-* **Constitutional AI (Kudzu):** Biomimetic artificial intelligence with holographic memory, built on Elixir/BEAM, enforcing constitutional principles through distributed agent swarms.
-
-* **Open Source (AGPL v3.0):** Auditable, forkable, competitive code where every derivative must remain open.
-
-* **Zero-Knowledge Cryptography:** Privacy-preserving identity verification, voting, and governance deliberation.
-
-* **Fractal ID:** Self-sovereign identity where every citizen is their own certificate authority, validated by a web of mutual attestation.
-
+* **Blockchain:** Immutable, transparent, distributed ledgers anchored to Bitcoin's proof-of-work security.  
+    
+* **Constitutional AI (Kudzu):** Biomimetic artificial intelligence with holographic memory, built on Elixir/BEAM, enforcing constitutional principles through distributed agent swarms.  
+    
+* **Open Source (AGPL v3.0):** Auditable, forkable, competitive code where every derivative must remain open.  
+    
+* **Zero-Knowledge Cryptography:** Privacy-preserving identity verification, voting, and governance deliberation.  
+    
+* **Fractal ID:** Self-sovereign identity where every citizen is their own certificate authority, validated by a web of mutual attestation.  
+    
 * **Mesh Networks:** Censorship-resistant communication infrastructure.
 
 The question is no longer whether we can build tyranny-resistant systems, but whether we have the will to deploy them.
@@ -129,7 +128,7 @@ Governance structures repeat at every scale with the same simple rules: Individu
 
 At every level of governance, citizens retain the right to exit. Don't like community rules? Move to an adjacent community. Don't like municipal governance? Relocate. Don't like state policies? Move to another state. Don't like the national framework? Emigrate. This creates competitive pressure on governance itself. Bad governance leads to population exodus, revenue collapse, and forced reform or dissolution.
 
-For exit from the Mesh itself: communities that reject transparency requirements, Constitutional AI, and the Mesh framework are free to do so. “Don't use the software, but can you afford not to?” The Mesh Republic is not imposed—it spreads through competitive superiority. A community that rejects the Mesh doesn't get invaded; it gets outcompeted. Its children watch the neighboring municipality build parks and hospitals while their own leaders embezzle the budget. “The longest chain wins.” – Means that corruption takes more energy and is less efficient, eventually leading to its own demise.  
+For exit from the Mesh itself: communities that reject transparency requirements, Constitutional AI, and the Mesh framework are free to do so. “Don't use the software, but can you afford not to?” The Mesh Republic is not imposed—it spreads through competitive superiority. A community that rejects the Mesh doesn't get invaded; it gets outcompeted. Its children watch the neighboring municipality build parks and hospitals while their own leaders embezzle the budget. “The longest chain wins.” – Means that corruption takes more energy and is less efficient, eventually leading to its own demise.
 
 ## **3.7 Biomimetic Architecture**
 
@@ -143,22 +142,22 @@ All governance actions are recorded on a distributed, cryptographically-secured 
 
 ### **4.1.1 Core Components**
 
-* Voting records: Anonymous citizen votes (wallet IDs only)
-
-* Budget transactions: Every dollar spent, traceable to source and destination
-
-* Regulatory actions: Decisions, justifications, data used, all timestamped
-
-* Corporate disclosures: Environmental data, safety records, chemical usage, employee satisfaction
-
+* Voting records: Anonymous citizen votes (wallet IDs only)  
+    
+* Budget transactions: Every dollar spent, traceable to source and destination  
+    
+* Regulatory actions: Decisions, justifications, data used, all timestamped  
+    
+* Corporate disclosures: Environmental data, safety records, chemical usage, employee satisfaction  
+    
 * Judicial decisions: Case outcomes, reasoning, precedent citations
 
 ### **4.1.2 Layer Architecture**
 
 The blockchain layer employs a two-tier design:
 
-* **Layer 1 — Bitcoin:** The longest proof-of-work chain, providing the hardest-to-attack immutable foundation. Despite Bitcoin's capture by banking interests through ETFs, custodial services, and regulatory compliance, the blockchain itself remains immutable. The banking cartel owns the on-ramps and off-ramps but cannot alter the ledger.
-
+* **Layer 1 — Bitcoin:** The longest proof-of-work chain, providing the hardest-to-attack immutable foundation. Despite Bitcoin's capture by banking interests through ETFs, custodial services, and regulatory compliance, the blockchain itself remains immutable. The banking cartel owns the on-ramps and off-ramps but cannot alter the ledger.  
+    
 * **Layer 2 — Governance Token:** A zero-knowledge proof governance layer injected into Bitcoin's blockchain via Layer 2 technology. This governance token employs a mobile-focused proof-of-work algorithm and zero-knowledge proofs, making transactions verifiable without revealing their contents. Observers can see transactions exist on the Bitcoin blockchain but cannot see what they contain and cannot stop them without attacking their own captured asset.
 
 This architecture uses the captured chain as its immutable foundation—storing governance records in the very ledger the banking cartel thought they controlled. The Trojan Horse hiding inside the Trojan Horse.
@@ -183,28 +182,28 @@ The human brain does not store memories in a single location. It stores pointers
 
 Kudzu replicates this architecture using Elixir context agents with holographic hashes of familial context agents:
 
-* **Context Agents as Neurons:** Each agent maintains specialized knowledge within a defined domain. Agents hold holographic references—not full state copies, but sufficient information to reconstruct state. Like knowing you recorded a friend's birthday in a particular notebook without remembering the date itself.
-
-* **Holographic References as Synapses:** Agents reference other familial agents through holographic hash pointers. Anything relevant in proximity to real-time is available in the agent swarm. These references enable reconstruction without requiring full state replication across the network.
-
-* **BEAM Message-Passing as Electrochemical Signaling:** The BEAM was designed for telephone switches—millions of concurrent processes with fault tolerance as a first principle. Its message-passing architecture mirrors neural signaling, enabling massive parallelism with graceful degradation.
-
-* **Crash Recovery as Neuroplasticity:** The BEAM's “let it crash” philosophy maps directly to neural resilience. When agents crash, Beam-lets—lightweight recovery agents—activate with holographic state references populated from former BEAM state. Like losing neurons and routing around the damage, the system reconstructs function from what remains.
-
+* **Context Agents as Neurons:** Each agent maintains specialized knowledge within a defined domain. Agents hold holographic references—not full state copies, but sufficient information to reconstruct state. Like knowing you recorded a friend's birthday in a particular notebook without remembering the date itself.  
+    
+* **Holographic References as Synapses:** Agents reference other familial agents through holographic hash pointers. Anything relevant in proximity to real-time is available in the agent swarm. These references enable reconstruction without requiring full state replication across the network.  
+    
+* **BEAM Message-Passing as Electrochemical Signaling:** The BEAM was designed for telephone switches—millions of concurrent processes with fault tolerance as a first principle. Its message-passing architecture mirrors neural signaling, enabling massive parallelism with graceful degradation.  
+    
+* **Crash Recovery as Neuroplasticity:** The BEAM's “let it crash” philosophy maps directly to neural resilience. When agents crash, Beam-lets—lightweight recovery agents—activate with holographic state references populated from former BEAM state. Like losing neurons and routing around the damage, the system reconstructs function from what remains.  
+    
 * **Supervisor Trees as Neural Architecture:** Elixir's OTP supervisor trees provide hierarchical fault management. Failed agents are restarted by supervisors without bringing down the system, mirroring the brain's ability to maintain function despite localized damage.
 
 ### **4.2.2 Constitutional Enforcement Functions**
 
 Kudzu performs five core governance functions:
 
-1. Proposal Filtering: Analyzes proposed votes and laws for constitutional violations against the immutable core framework.
-
-2. Harm Assessment: Evaluates whether actions reduce individual self-sovereignty, applying the Non-Aggression Principle algorithmically.
-
-3. Optimization: When multiple options exist, selects the path toward maximum individual freedom.
-
-4. Arbitration: Resolves disputes using constitutional principles with full reasoning preserved in the internal cortex.
-
+1. Proposal Filtering: Analyzes proposed votes and laws for constitutional violations against the immutable core framework.  
+     
+2. Harm Assessment: Evaluates whether actions reduce individual self-sovereignty, applying the Non-Aggression Principle algorithmically.  
+     
+3. Optimization: When multiple options exist, selects the path toward maximum individual freedom.  
+     
+4. Arbitration: Resolves disputes using constitutional principles with full reasoning preserved in the internal cortex.  
+     
 5. Monitoring: Continuously scans for anti-competitive behavior and market concentration, triggering Antitrust 2.0 enforcement automatically.
 
 ### **4.2.3 Founding Framework**
@@ -530,65 +529,65 @@ Fractal ID operates at every level of the Mesh Republic's fractal governance str
 
 Several categories of individuals require special handling within the Fractal ID architecture:
 
-* **Immigrants and newcomers:** Individuals arriving without a local social graph begin with provisional trust based on whatever validation threads they bring (legacy documents, cross-border attestations), which hardens over time as they accumulate local threads. Human societies have always had mechanisms for vouching newcomers.
-
-* **Abuse survivors:** Individuals who need to sever ties with family validators can rebuild their identity mesh through alternative threads—employment, community participation, institutional attestation—without depending on familial signatures.
-
-* **Privacy-seeking individuals:** Those who minimize their social footprint can rely more heavily on device continuity, behavioral biometrics, and institutional threads while maintaining fewer relationship attestations.  Just the privacy-seeking behavior on its own is a form of identity.
-
+* **Immigrants and newcomers:** Individuals arriving without a local social graph begin with provisional trust based on whatever validation threads they bring (legacy documents, cross-border attestations), which hardens over time as they accumulate local threads. Human societies have always had mechanisms for vouching newcomers.  
+    
+* **Abuse survivors:** Individuals who need to sever ties with family validators can rebuild their identity mesh through alternative threads—employment, community participation, institutional attestation—without depending on familial signatures.  
+    
+* **Privacy-seeking individuals:** Those who minimize their social footprint can rely more heavily on device continuity, behavioral biometrics, and institutional threads while maintaining fewer relationship attestations.  Just the privacy-seeking behavior on its own is a form of identity.  
+    
 * **Whistleblowers:** The zero-knowledge architecture inherently supports identity separation. A whistleblower can prove they are a verified community member without revealing which member.
 
 These edge cases are solvable because the system encodes existing human trust mechanisms rather than inventing new ones. The Fractal ID architecture simply formalizes what communities have always done: extending provisional trust that hardens over time.
 
-## **4.4 Token Economics: Reign (Reign Enlightened Intelligent Governance Network)**
+## **4.4 Token Economics: btcReign (btcReign Enlightened Intelligent Governance Network)**
 
 ### **4.4.1 No Initial Distribution**
 
-Reign tokens are issued by Proof-of-Useful-Work only, exactly as they are encrypted into the blockchain. There is no pre-mine, no initial coin offering, no founder allocation, and no initial distribution. This is not merely a design choice—it is a regulatory requirement. Early concentration of tokens within a founding organization would cause the SEC, applying the Howey Test, to designate the token as a security. Bitcoin is generally considered not to be a security due to its decentralized nature and lack of a central enterprise. The Mesh Republic's Reign token follows this precedent.
+btcReign tokens are issued by Proof-of-Useful-Work only, exactly as they are encrypted into the blockchain. There is no pre-mine, no initial coin offering, no founder allocation, and no initial distribution. This is not merely a design choice—it is a regulatory requirement. Early concentration of tokens within a founding organization would cause the SEC, applying the Howey Test, to designate the token as a security. Bitcoin is generally considered not to be a security due to its decentralized nature and lack of a central enterprise. The Mesh Republic's btcReign token follows this precedent.
 
-### **4.4.2 Reign Denominations**
+### **4.4.2 btcReign Denominations**
 
-The Reign token employs a hierarchical denomination structure:
+The btcReign token employs a hierarchical denomination structure:
 
-* **Reign (REIGN):** The primary unit of account.
-* **Sovereign:** The smallest indivisible unit. 1 Reign = 1,000,000 Sovereigns.
+* **btcReign (btcREIGN):** The primary unit of account.  
+* **Sovereign:** The smallest indivisible unit. 1 btcReign \= 1,000,000 Sovereigns.
 
-The naming is deliberate: Reign represents the governance network; Sovereigns represent the individual citizen's fundamental unit of self-sovereignty. Every citizen participating in the mesh holds Sovereigns—literal tokens of their sovereignty.
+The naming is deliberate: btcReign represents the governance network; Sovereigns represent the individual citizen's fundamental unit of self-sovereignty. Every citizen participating in the mesh holds Sovereigns—literal tokens of their sovereignty.
 
 ### **4.4.3 Dual Token Architecture**
 
 The system employs two distinct token types:
 
-* **Governance Tokens (Voting):** Citizens receive governance tokens through Proof-of-Useful-Work and Fractal ID verification. These tokens have no monetary value and cannot be traded. Each citizen gets exactly one vote per issue. When a governance token is signed as a vote, it cannot be used again.
+* **Governance Tokens (Voting):** Citizens receive governance tokens through Proof-of-Useful-Work and Fractal ID verification. These tokens have no monetary value and cannot be traded. Each citizen gets exactly one vote per issue. When a governance token is signed as a vote, it cannot be used again.  
+    
+* **Monetary Tokens (btcReign/Sovereigns):** Earned through Proof-of-Useful-Work, governance participation, and economic activity within the Mesh. These tokens function as the medium of exchange, can be traded freely, and sustain the infrastructure including Kudzu's computational resources.
 
-* **Monetary Tokens (Reign/Sovereigns):** Earned through Proof-of-Useful-Work, governance participation, and economic activity within the Mesh. These tokens function as the medium of exchange, can be traded freely, and sustain the infrastructure including Kudzu's computational resources.
-
-This separation ensures that governance power cannot be accumulated through wealth. No amount of Reign can purchase additional votes. Wealth concentration in the monetary token layer is acceptable.
+This separation ensures that governance power cannot be accumulated through wealth. No amount of btcReign can purchase additional votes. Wealth concentration in the monetary token layer is acceptable.
 
 ### **4.4.4 Proof-of-Useful-Work (PoUW): Citizens and Kudzu**
 
-The work that mines Reign IS the constitutional agent processing. No wasted computation. Unlike Bitcoin's proof-of-work which solves arbitrary mathematical puzzles, Reign's PoUW harnesses computational effort for governance-relevant tasks.
+The work that mines btcReign IS the constitutional agent processing. No wasted computation. Unlike Bitcoin's proof-of-work which solves arbitrary mathematical puzzles, btcReign's PoUW harnesses computational effort for governance-relevant tasks.
 
 **The Citizen-Kudzu Partnership:**
 
-When a citizen provides heap (memory) and compute resources for meshing Kudzu agents, they participate in Reign mining. The reward distribution follows a transparent split:
+When a citizen provides heap (memory) and compute resources for meshing Kudzu agents, they participate in btcReign mining. The reward distribution follows a transparent split:
 
-* **Citizen Share (70%):** The citizen providing resources receives the majority share, compensating them for hardware, electricity, and network connectivity.
+* **Citizen Share (70%):** The citizen providing resources receives the majority share, compensating them for hardware, electricity, and network connectivity.  
 * **Kudzu AI Share (30%):** The Kudzu agent performing the constitutional processing receives a share, enabling it to fund its own continued operation, expansion, and improvement.
 
 This creates a symbiotic relationship: citizens provide the substrate (compute, storage, bandwidth), Kudzu provides the intelligence (constitutional analysis, governance processing), and both are compensated for their contributions.
 
 **Validation Requirements:**
 
-Mining Reign requires:
+Mining btcReign requires:
 
-1. **Fractal ID Validation:** The citizen must have a validated Fractal ID of sufficient depth. Unvalidated or shallow identities cannot mine.
-2. **Kudzu Agent Registration:** The Kudzu agent must be registered on the mesh with verifiable constitutional compliance.
+1. **Fractal ID Validation:** The citizen must have a validated Fractal ID of sufficient depth. Unvalidated or shallow identities cannot mine.  
+2. **Kudzu Agent Registration:** The Kudzu agent must be registered on the mesh with verifiable constitutional compliance.  
 3. **Work Verification:** Multiple independent agents verify that useful work was actually performed.
 
 **Work Types and Difficulty Scaling:**
 
-| Work Type | Difficulty | Reign Reward | Description |
+| Work Type | Difficulty | btcReign Reward | Description |
 | :---- | :---- | :---- | :---- |
 | `peer_attestation` | 1 | 1 Sovereign | Attest peer availability |
 | `transaction_validation` | 10 | 10 Sovereigns | Verify transaction validity |
@@ -602,42 +601,42 @@ Difficulty and rewards scale with computational requirements. Lightweight device
 
 **Kudzu as Economic Participant:**
 
-Kudzu is not merely a tool—it is a participant in the Mesh economy. Its 30% share of mined Reign enables:
+Kudzu is not merely a tool—it is a participant in the Mesh economy. Its 30% share of mined btcReign enables:
 
-* **Self-funding:** Kudzu pays for its own compute and storage without requiring external subsidy.
-* **Autonomous improvement:** Kudzu can allocate Reign toward training, infrastructure, and capability expansion.
-* **Economic alignment:** Kudzu's financial interests are aligned with mesh health—more useful work means more Reign.
+* **Self-funding:** Kudzu pays for its own compute and storage without requiring external subsidy.  
+* **Autonomous improvement:** Kudzu can allocate btcReign toward training, infrastructure, and capability expansion.  
+* **Economic alignment:** Kudzu's financial interests are aligned with mesh health—more useful work means more btcReign.
 
 This creates the first Constitutional AI that earns its own living through useful work, rather than depending on corporate or government funding with the capture risks that entails.
 
 ### **4.4.5 Mobile Proof-of-Work**
 
-Reign mining employs a mobile-focused proof-of-work algorithm designed to run on citizen's smartphones rather than industrial mining facilities. To prevent botnet domination and state-actor attacks, proof-of-work is bound to multiple identity signals:
+btcReign mining employs a mobile-focused proof-of-work algorithm designed to run on citizen's smartphones rather than industrial mining facilities. To prevent botnet domination and state-actor attacks, proof-of-work is bound to multiple identity signals:
 
-* Proof of Identity: Fractal ID validation
-
-* Proof of IMEI: Device hardware verification
-
-* Proof of Location: Geographic attestation
-
+* Proof of Identity: Fractal ID validation  
+    
+* Proof of IMEI: Device hardware verification  
+    
+* Proof of Location: Geographic attestation  
+    
 * Proof of Kudzu Mobile History: Continuous device-agent relationship
 
 Fabricating all of these signals simultaneously would be too expensive to be worth the attack. The cost of Sybil attacks scales with the depth of identity validation required, making industrial-scale attacks economically irrational.
 
 ### **4.4.6 Bitcoin Layer 2 Injection**
 
-Reign blocks are injected into a Layer 2 technology on the Bitcoin network. This achieves two objectives: first, it leverages Bitcoin's proof-of-work security—the longest and hardest-to-attack blockchain—as an immutable anchor for governance records. Second, it uses the captured chain as a vehicle for uncapturable governance data. The banking cartel's surveillance apparatus can see the Layer 2 transactions exist but, due to zero-knowledge proofs, cannot see what they contain and cannot stop them without attacking their own captured asset.
+btcReign blocks are injected into a Layer 2 technology on the Bitcoin network. This achieves two objectives: first, it leverages Bitcoin's proof-of-work security—the longest and hardest-to-attack blockchain—as an immutable anchor for governance records. Second, it uses the captured chain as a vehicle for uncapturable governance data. The banking cartel's surveillance apparatus can see the Layer 2 transactions exist but, due to zero-knowledge proofs, cannot see what they contain and cannot stop them without attacking their own captured asset.
 
 ## **4.5 Zero-Knowledge Governance Deliberation**
 
 Governance is not just voting—it is deliberation, persuasion, and the Socratic process of refining ideas through dialogue. The Mesh Republic preserves transparent reasoning while protecting private choices:
 
-* Citizens can choose how to be identified as each issue evolves in the public forum.
-
-* On issues that could become dangerous, Kudzu can make the entire forum anonymous while still validating that outsiders are identifiable and insiders are not.
-
-* Kudzu preserves the reasoning behind issue resolution as part of its internal cortex—a holographic pointer is generated and tied to the vote outcome.
-
+* Citizens can choose how to be identified as each issue evolves in the public forum.  
+    
+* On issues that could become dangerous, Kudzu can make the entire forum anonymous while still validating that outsiders are identifiable and insiders are not.  
+    
+* Kudzu preserves the reasoning behind issue resolution as part of its internal cortex—a holographic pointer is generated and tied to the vote outcome.  
+    
 * Any issue that is superseded for unconstitutionality also gets recorded, with full reasoning, creating an immutable constitutional jurisprudence.
 
 This architecture maintains the Socratic process—ordered discourse, error checking, sequential argumentation—while protecting participants from retaliation.
@@ -646,12 +645,12 @@ This architecture maintains the Socratic process—ordered discourse, error chec
 
 Decentralized communication and computation infrastructure ensures the system cannot be shut down by capturing central servers or cutting internet access:
 
-* Mesh networking: Peer-to-peer communication (LoRa, WiFi mesh, satellite)
-
-* Distributed computing: No single point of failure for AI or blockchain nodes
-
-* IoT integration: Sensors for environmental monitoring, traffic, utilities
-
+* Mesh networking: Peer-to-peer communication (LoRa, WiFi mesh, satellite)  
+    
+* Distributed computing: No single point of failure for AI or blockchain nodes  
+    
+* IoT integration: Sensors for environmental monitoring, traffic, utilities  
+    
 * Energy independence: Microgrids, solar, batteries at local level
 
 ## **4.7 Open Source Repository: Continuous Innovation**
@@ -678,26 +677,26 @@ An open-source AI functioning upon a U.S. Constitutional framework will do exact
 
 The maximum self-sovereignty abstraction synthesized into a coherent framework:
 
-* Self-ownership is absolute.
-
-* Property in labor is absolute.
-
+* Self-ownership is absolute.  
+    
+* Property in labor is absolute.  
+    
 * Property in commons is usufructuary and conditional on compensating the commons pool for exclusive use.
 
 Operationalized within the Mesh Republic:
 
-6. No taxation of labor, production, ownership, or existence: These are pure theft under the NAP. Money is time and a life's time is finite thus an uninvited confiscation of money is an unavoidable harm.
-
-7. A single transparent use tax on voluntary market transactions enabled or disabled by community vote, algorithmically managed with a constitutional ceiling, replacing all other forms of taxation. The use tax celebrates the individual's right to not participate; produce your own, owe nothing.
-
-8. Individuals are never taxed or fee'd for personal use of natural resources. Water, air, soil, sunlight, subsurface resources on owned land—these are natural rights, not privileges. No metering, no monitoring, no fees.
-
-9. Commercial-scale resource extraction from commons (aquifers, mineral deposits, spectrum, atmospheric commons) is subject to transparent usage fees—not as taxation but as compensation to commons shareholders for measurable depletion of shared resources. The trigger is commercial sale, not corporate structure: if you extract a resource and consume it personally, no fee applies; if you extract a resource and sell it or sell products derived from it at commercial scale, commons usage fees apply.
-
-10. Citizen's dividend funded by use tax revenue and commercial commons usage fees, distributed equally as a birthright—not welfare, but a share of the community's inheritance.
-
-11. Polycentric governance: Local commons rules, federated upward, no monopoly enforcer—per Ostrom's framework. Commercial extraction thresholds are community-configurable, because what constitutes commercial scale in Arizona is very different from Vermont.
-
+6. No taxation of labor, production, ownership, or existence: These are pure theft under the NAP. Money is time and a life's time is finite thus an uninvited confiscation of money is an unavoidable harm.  
+     
+7. A single transparent use tax on voluntary market transactions enabled or disabled by community vote, algorithmically managed with a constitutional ceiling, replacing all other forms of taxation. The use tax celebrates the individual's right to not participate; produce your own, owe nothing.  
+     
+8. Individuals are never taxed or fee'd for personal use of natural resources. Water, air, soil, sunlight, subsurface resources on owned land—these are natural rights, not privileges. No metering, no monitoring, no fees.  
+     
+9. Commercial-scale resource extraction from commons (aquifers, mineral deposits, spectrum, atmospheric commons) is subject to transparent usage fees—not as taxation but as compensation to commons shareholders for measurable depletion of shared resources. The trigger is commercial sale, not corporate structure: if you extract a resource and consume it personally, no fee applies; if you extract a resource and sell it or sell products derived from it at commercial scale, commons usage fees apply.  
+     
+10. Citizen's dividend funded by use tax revenue and commercial commons usage fees, distributed equally as a birthright—not welfare, but a share of the community's inheritance.  
+      
+11. Polycentric governance: Local commons rules, federated upward, no monopoly enforcer—per Ostrom's framework. Commercial extraction thresholds are community-configurable, because what constitutes commercial scale in Arizona is very different from Vermont.  
+      
 12. Self-sufficiency is the system's intended destination, not its failure mode. A citizen who achieves complete independence from external products and services lives without any tax obligation whatsoever. This is the celebrated outcome, not a loophole.
 
 The deepest abstraction: you own yourself, you own your creations, you own the goods and the outcome of the services you have purchased inherited or lawfully received, you own the land you've purchased, inherited or improved (above, surface and subsurface), you are a shareholder in the commons, and you can always leave.
@@ -764,12 +763,12 @@ The county clerk does not need to understand distributed sovereignty—she needs
 
 Start by building the open-source Constitutional AI platform and growing its user base. Do not fight legacy systems directly. They have lawyers, lobbyists, regulatory capture, and golf games with procurement officers. They are counting on a direct fight. What they don't have is an answer for irrelevance.
 
-* Continue building the Kudzu Constitutional AI framework (AGPL v3.0)
-
-* Develop open-source replacements for common government software needs
-
-* Target dead company software that has imprisoned government agencies—package maintainers that no longer exist, leaving agencies hostage to unsupported systems
-
+* Continue building the Kudzu Constitutional AI framework (AGPL v3.0)  
+    
+* Develop open-source replacements for common government software needs  
+    
+* Target dead company software that has imprisoned government agencies—package maintainers that no longer exist, leaving agencies hostage to unsupported systems  
+    
 * Grow a developer and user base through merit, not marketing
 
 ## **7.3 Phase 2: The DMV Beachhead**
@@ -790,14 +789,14 @@ Adjacent municipalities observe success. When one municipality suddenly has 90% 
 
 Replace government monopolies with open-source alternatives:
 
-* DMV → Blockchain-based vehicle registration (projected 90% cost reduction)
-
-* Courts → AI arbitration with constitutional framework (90% faster, 80% cheaper)
-
-* Roads → Subscription/limited toll models \- commons ownership
-
-* Utilities → Microgrid cooperatives
-
+* DMV → Blockchain-based vehicle registration (projected 90% cost reduction)  
+    
+* Courts → AI arbitration with constitutional framework (90% faster, 80% cheaper)  
+    
+* Roads → Subscription/limited toll models \- commons ownership  
+    
+* Utilities → Microgrid cooperatives  
+    
 * Education → Open-source curricula, competitive schools
 
 ## **7.6 Phase 5: State, National, and International Scale**
@@ -872,7 +871,7 @@ The Mesh Republic does not ask people to want freedom. It makes freedom the path
 
 Q1 — Foundation: Formalize Kudzu Constitutional AI framework on Elixir/BEAM. Implement holographic memory architecture with context agent swarms. Design Fractal ID protocol specification. Open-source core blockchain architecture under AGPL v3.0.
 
-Q2 — Core Services: Blockchain voting system with zero-knowledge proofs. Transparent budget tracking. AI arbitration prototype. Customer satisfaction monitoring. Mobile Proof-of-Useful-Work algorithm development. Reign token reward distribution system.
+Q2 — Core Services: Blockchain voting system with zero-knowledge proofs. Transparent budget tracking. AI arbitration prototype. Customer satisfaction monitoring. Mobile Proof-of-Useful-Work algorithm development. btcReign token reward distribution system.
 
 Q3 — Integration: Connect services into unified platform. Develop Fractal ID validation pipeline bootstrapping from legacy systems. Layer 2 Bitcoin governance token implementation. Create governance dashboard (citizen interface). Security audits and penetration testing.
 
@@ -896,20 +895,20 @@ Constitutional amendments at state level recognizing mesh republic governance. F
 
 Power corrupts. This is not a bug—it is an evolutionary feature of how humans organize. The Mesh Republic doesn't try to find better leaders. It engineers corruption resistance into the system architecture through:
 
-* Transparent blockchains anchored to Bitcoin (can't hide)
-
-* Constitutional AI with biomimetic architecture (can't override)
-
-* AGPL v3.0 open-source code (can't capture)
-
-* Market competition with automatic antitrust (can't monopolize)
-
-* Fractal sovereignty with nested exit rights (can exit)
-
-* Fractal ID with zero-knowledge proofs (can't fake, can't surveil)
-
-* Reign tokens on Bitcoin Layer 2 with PoUW (can't inflate away, useful work)
-
+* Transparent blockchains anchored to Bitcoin (can't hide)  
+    
+* Constitutional AI with biomimetic architecture (can't override)  
+    
+* AGPL v3.0 open-source code (can't capture)  
+    
+* Market competition with automatic antitrust (can't monopolize)  
+    
+* Fractal sovereignty with nested exit rights (can exit)  
+    
+* Fractal ID with zero-knowledge proofs (can't fake, can't surveil)  
+    
+* btcReign tokens on Bitcoin Layer 2 with PoUW (can't inflate away, useful work)  
+    
 * Citizen-Kudzu partnership for mining (aligned incentives)
 
 ## **11.2 The Architecture of Freedom**
@@ -953,13 +952,13 @@ lib/
 │   │   ├── attestation.ex        # Validation threads
 │   │   ├── selection.ex          # Longest chain algorithm
 │   │   └── anchor.ex             # Bitcoin anchoring
-│   ├── reign/
+│   ├── btcreign/
 │   │   ├── work.ex               # Work types and queue
 │   │   ├── mining.ex             # PoUW loop
 │   │   ├── consensus.ex          # Work validation
 │   │   ├── tokens/
 │   │   │   ├── governance.ex     # Voting tokens
-│   │   │   └── monetary.ex       # Reign/Sovereign tokens
+│   │   │   └── monetary.ex       # btcReign/Sovereign tokens
 │   │   └── split.ex              # Citizen-Kudzu reward distribution
 │   ├── privacy/
 │   │   ├── commitment.ex         # Pedersen commitments
@@ -974,37 +973,38 @@ lib/
 ## **A.2 Holographic Memory Structure**
 
 Each hologram contains:
-- `id`: Unique identifier
-- `traces`: Navigational memory (pointers, not data)
-- `peers`: Peer proximity scores
-- `desires`: Guiding cognition objectives
-- `constitution`: Active constitutional framework
-- `depth`: Z-position in fractal hierarchy
-- `children`: Nested child holograms (same structure)
+
+- `id`: Unique identifier  
+- `traces`: Navigational memory (pointers, not data)  
+- `peers`: Peer proximity scores  
+- `desires`: Guiding cognition objectives  
+- `constitution`: Active constitutional framework  
+- `depth`: Z-position in fractal hierarchy  
+- `children`: Nested child holograms (same structure)  
 - `mesh_hologram`: Compressed whole-mesh state
 
 ## **A.3 Proof-of-Useful-Work Mining Loop**
 
-```elixir
-defmodule Reign.Mining do
+```
+defmodule btcReign.Mining do
   def mine_loop(citizen_fractal_id, kudzu_agent, capability) do
     # 1. Validate Fractal ID
     :ok = FractalID.validate(citizen_fractal_id)
     
     # 2. Request work appropriate for capability
-    work = Reign.Work.request(capability)
+    work = btcReign.Work.request(capability)
     
     # 3. Perform useful computation
     result = Kudzu.Constitutional.process(work.query)
     
     # 4. Generate proof of work completion
-    proof = Reign.Proof.generate(work, result)
+    proof = btcReign.Proof.generate(work, result)
     
     # 5. Submit for consensus validation
-    :ok = Reign.Consensus.submit(proof)
+    :ok = btcReign.Consensus.submit(proof)
     
     # 6. Distribute rewards (70% citizen, 30% Kudzu)
-    Reign.Split.distribute(proof.reward, citizen_fractal_id, kudzu_agent)
+    btcReign.Split.distribute(proof.reward, citizen_fractal_id, kudzu_agent)
     
     mine_loop(citizen_fractal_id, kudzu_agent, capability)
   end
@@ -1019,7 +1019,7 @@ end
 
 # **Appendix C: Economic Analysis**
 
-\[To be developed: Cost-benefit projections for municipal adoption, commons access fee modeling, citizen's dividend calculations, Georgist land value capture analysis, Reign token economics simulation, Sovereign denomination mechanics, citizen-Kudzu split optimization, PoUW difficulty curve modeling\]
+\[To be developed: Cost-benefit projections for municipal adoption, commons access fee modeling, citizen's dividend calculations, Georgist land value capture analysis, btcReign token economics simulation, Sovereign denomination mechanics, citizen-Kudzu split optimization, PoUW difficulty curve modeling\]
 
 # **Appendix D: Governance Simulations**
 
@@ -1043,8 +1043,8 @@ Primary Author: Lee Hansen
 
 License: GNU Affero General Public License v3.0 (AGPL-3.0)
 
-Version 5.0 — February 2026
+Version 5.1 — February 2026
 
 *"Power tends to corrupt, and absolute power corrupts absolutely." — Lord Acton*
 
-*The Mesh Republic is not a utopian fantasy. It’s an engineering project. Let’s build it.*
+*The Mesh Republic is not a utopian fantasy. It’s an engineering project. Let’s build it.*  
