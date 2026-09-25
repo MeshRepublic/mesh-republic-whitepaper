@@ -10,7 +10,7 @@ Primary Author: Lee Hansen
 
 License: GNU Affero General Public License v3.0 (AGPL-3.0)
 
-Repository: github.com/mesh-republic/kudzu-mesh
+Repositories: github.com/meshrepublic/mesh-republic-whitepaper · github.com/meshrepublic/Autonym · github.com/meshrepublic/kudzu
 
 # **Abstract**
 
@@ -1042,7 +1042,7 @@ end
 
 # **Appendix E: Open Source Repository**
 
-Repository: github.com/mesh-republic/kudzu-mesh
+Repositories: github.com/meshrepublic/mesh-republic-whitepaper · github.com/meshrepublic/Autonym · github.com/meshrepublic/kudzu
 
 License: GNU Affero General Public License v3.0 (AGPL-3.0)
 
