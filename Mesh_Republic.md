@@ -515,6 +515,8 @@ This is why the legacy system's identity architecture is fundamentally flawed. G
 
 The Mesh Republic does not ask "Can we create a system where identity theft is impossible?" It asks "Can we create a system where identity theft is so expensive that it becomes economically irrational?" The longest chain principle, combined with exponential cost scaling and Bitcoin anchoring, achieves exactly this.
 
+Depth alone is not uniqueness. Validation threads measure how real an identity is, not whether its human holds only one; a citizen could attempt to partition a genuine life across two identities precisely because the citizen stream pays per identity. The enrollment oracle that closes this gap, exclusive zero-knowledge claims on legacy credentials during bootstrap, enrollment ceremonies exploiting physical simultaneity, staked attestation with slashing on duplicate merge, and a dynamic claiming threshold, is specified in Section 9.3 of the Autonym whitepaper.
+
 ### **4.3.5 Bootstrapping from Legacy Systems**
 
 The Mesh Republic emerges from within the legacy system; it is not an outside force. Autonym benefits from this position. Every surveillance apparatus the legacy system has constructed, every record it has accumulated, every data point it has hoarded, all become fuel for the identity mesh.
@@ -574,6 +576,10 @@ Claims are non-delegable and non-transferable. Per-epoch amounts are kept delibe
 
 Circulation is unconstrained: brots may be traded, spent, pooled, and lent. Credit deserves one honest note: an anonymous bearer note cannot be underwritten, so lending requires either on-chain collateral or the borrower's voluntary, scoped identity disclosure through the Autonym selective-disclosure mechanism. Privacy is the default; creditworthiness is something a citizen chooses to prove.
 
+
+**The Mint Threshold.**
+
+The citizen stream mints only above a validation-depth threshold, and that threshold is set by one inequality: the cost of raising a fraudulent identity to claiming depth must exceed the net present value of the stream it would capture. Demurrage bounds the prize, since a stolen stream of m brots per year discounts to a finite value further reduced by δ on any accumulation, while the forging cost rises with required depth across six independent evidence threads. The threshold adjusts dynamically with measured duplicate-detection rates, in the manner of the anchoring ratchet of Section 4.4.7: rising fraud raises required depth automatically, with no vote in the loop. The full enrollment oracle, covering uniqueness, liveness, and genesis, is specified in Section 9.3 of the Autonym whitepaper.
 
 **Monetary Equilibrium.**
 
@@ -1092,7 +1098,7 @@ end
 
 # **Appendix C: Economic Analysis**
 
-\[To be developed: Cost-benefit projections for municipal adoption, commons access fee modeling, citizen's dividend calculations, Georgist land value capture analysis, Mandelbrots token economics simulation, brot denomination and demurrage mechanics, citizen-Kudzu split optimization, PoUW difficulty curve modeling\]
+\[To be developed: Cost-benefit projections for municipal adoption, commons access fee modeling, citizen's dividend calculations, Georgist land value capture analysis, Mandelbrots token economics simulation, brot denomination and demurrage mechanics, citizen-Kudzu split optimization, PoUW difficulty curve modeling, enrollment-ceremony cadence and attestation stake calibration\]
 
 # **Appendix D: Governance Simulations**
 
