@@ -18,7 +18,7 @@ Power tends to corrupt, and absolute power corrupts absolutely. This observation
 
 By combining immutable records, algorithmic constitutional constraints, market-based feedback loops, fractal sovereignty structures, biomimetic AI architecture, zero-knowledge identity systems, and a Bitcoin-anchored governance platform, we can create governance systems that optimize for individual liberty rather than centralized control.
 
-Version 5.0 introduces several critical architectural advancements: Autonym, a self-sovereign identity system where every citizen is their own certificate authority; Kudzu, a biomimetic Constitutional AI built on Elixir/BEAM with holographic memory architecture; Mandelbrots, a Bitcoin-anchored governance token with Proof-of-Useful-Work mining where citizens and Kudzu AI share rewards for providing heap and compute; a comprehensive property theory synthesizing Lockean, Georgist, and Ostromian frameworks; and a detailed token economics model designed to resist regulatory capture and wealth concentration.
+Version 5.0 introduces several critical architectural advancements: Autonym, a self-sovereign identity system where every citizen is their own certificate authority; Kudzu, a biomimetic Constitutional AI built on Elixir/BEAM with holographic memory architecture; Mandelbrots, a Bitcoin-anchored governance currency with dual-stream issuance: an identity-minted citizen dividend for every verified Autonym, and Proof-of-Useful-Work rewards shared by citizens and Kudzu AI for providing heap and compute; a comprehensive property theory synthesizing Lockean, Georgist, and Ostromian frameworks; and a detailed token economics model designed to resist regulatory capture and wealth concentration.
 
 # **Table of Contents**
 
@@ -158,7 +158,7 @@ The blockchain layer employs a two-tier design:
 
 * **Tier 1 — Bitcoin (External Anchor):** The longest proof-of-work chain, providing the hardest-to-attack immutable foundation. Despite Bitcoin's capture by banking interests through ETFs, custodial services, and regulatory compliance, the blockchain itself remains immutable. The banking cartel owns the on-ramps and off-ramps but cannot alter the ledger.  
     
-* **Tier 2 — Governance Chain (Mandelbrots):** A sovereign zero-knowledge governance chain whose state is periodically anchored into Bitcoin's ledger by Merkle commitment. The chain employs a mobile-focused proof-of-work algorithm and zero-knowledge proofs, making transactions verifiable without revealing their contents. Observers can see that the anchor commitments exist on the Bitcoin blockchain but cannot see what they attest and cannot stop them without attacking their own captured asset.
+* **Tier 2 — Governance Chain (Mandelbrots):** A sovereign zero-knowledge governance chain whose state is periodically anchored into Bitcoin's ledger by Merkle commitment. The chain employs Proof-of-Useful-Work for security, identity-minted issuance for citizens, and zero-knowledge proofs, making transactions verifiable without revealing their contents. Observers can see that the anchor commitments exist on the Bitcoin blockchain but cannot see what they attest and cannot stop them without attacking their own captured asset.
 
 This architecture uses the captured chain as its immutable foundation, storing governance records in the very ledger the banking cartel thought they controlled. The Trojan Horse hiding inside the Trojan Horse.
 
@@ -543,85 +543,120 @@ These edge cases are solvable because the system encodes existing human trust me
 
 ### **4.4.1 No Initial Distribution**
 
-Mandelbrots tokens are issued by Proof-of-Useful-Work only, exactly as they are encrypted into the blockchain. There is no pre-mine, no initial coin offering, no founder allocation, and no initial distribution. This is not merely a design choice; it is a regulatory requirement. Early concentration of tokens within a founding organization would cause the SEC, applying the Howey Test, to designate the token as a security. Bitcoin is generally considered not to be a security due to its decentralized nature and lack of a central enterprise. The Mesh Republic's Mandelbrots token follows this precedent.
+Mandelbrots are issued only by the protocol itself, through the two issuance streams defined in Sections 4.4.4 and 4.4.5: the citizen stream, minted to every verified Autonym each epoch, and the infrastructure stream, earned through Proof-of-Useful-Work. There is no pre-mine, no initial coin offering, no founder allocation, and no initial distribution. This is not merely a design choice; it is a regulatory requirement. Early concentration of tokens within a founding organization would cause the SEC, applying the Howey Test, to designate the token as a security. Bitcoin is generally considered not to be a security due to its decentralized nature and lack of a central enterprise. Mandelbrots follows this precedent, and the citizen stream strengthens it: issuance flows to every verified person on equal terms, from a fixed protocol rule rather than from any common enterprise whose managerial efforts holders must rely upon.
 
 ### **4.4.2 Mandelbrots Denominations**
 
-The Mandelbrots token employs a hierarchical denomination structure:
+The currency employs a two-level denomination structure:
 
-* **Mandelbrots (btcREIGN):** The primary unit of account.  
-* **Sovereign:** The smallest indivisible unit. 1 Mandelbrots \= 1,000,000 Sovereigns.
+* **mandelbrot:** The primary unit of account, named for Benoit Mandelbrot, whose set generates infinite unique structure from a single iterated rule; the monetary mirror of the Republic's identity principle.
+* **brot:** The base unit of everyday exchange. 1 mandelbrot \= 100,000,000 brots.
 
-The naming is deliberate: Mandelbrots represents the governance network; Sovereigns represent the individual citizen's fundamental unit of self-sovereignty. Every citizen participating in the mesh holds Sovereigns, literal tokens of their sovereignty.
+The naming is deliberate. Mandelbrot means "almond bread"; a brot is, literally, bread. Citizens transact, are paid, and are minted in brots: the daily bread of the Republic, the individual citizen's fundamental token of economic sovereignty. Ticker: BROT.
 
 ### **4.4.3 Dual Token Architecture**
 
 The system employs two distinct token types:
 
-* **Governance Tokens (Voting):** Citizens receive governance tokens through Proof-of-Useful-Work and Autonym verification. These tokens have no monetary value and cannot be traded. Each citizen gets exactly one vote per issue. When a governance token is signed as a vote, it cannot be used again.  
-    
-* **Monetary Tokens (Mandelbrots/Sovereigns):** Earned through Proof-of-Useful-Work, governance participation, and economic activity within the Mesh. These tokens function as the medium of exchange, can be traded freely, and sustain the infrastructure including Kudzu's computational resources.
+* **Governance Tokens (Voting):** Issued one per verified Autonym per ballot, through the same personhood proof that drives the citizen stream; never through work, wealth, or purchase. These tokens have no monetary value and cannot be traded. Each citizen gets exactly one vote per issue. When a governance token is signed as a vote, it cannot be used again.
 
-This separation ensures that governance power cannot be accumulated through wealth. No amount of Mandelbrots can purchase additional votes. Wealth concentration in the monetary token layer is acceptable.
+* **Monetary Tokens (mandelbrots/brots):** Issued through both streams of Section 4.4.4 and 4.4.5 and circulated through economic activity within the Mesh. These tokens function as the medium of exchange, can be traded freely, and sustain the infrastructure including Kudzu's computational resources.
 
-### **4.4.4 Proof-of-Useful-Work (PoUW): Citizens and Kudzu**
+This separation ensures that governance power cannot be accumulated through wealth. No amount of mandelbrots can purchase additional votes. Wealth concentration in the monetary token layer is acceptable; concentration of the franchise is impossible by construction.
 
-The work that mines Mandelbrots IS the constitutional agent processing. No wasted computation. Unlike Bitcoin's proof-of-work which solves arbitrary mathematical puzzles, Mandelbrots's PoUW harnesses computational effort for governance-relevant tasks.
+### **4.4.4 The Citizen Stream: Identity-Minted Issuance**
+
+Each epoch, every Autonym above the validation threshold may mint a fixed number of brots by presenting a zero-knowledge claim proof: a proof of membership in the verified-identity set together with an epoch nullifier that makes double-claiming impossible without revealing which identity claimed. The minted brots are unlinkable bearer value from that moment forward. Identity is load-bearing exactly where it adds security, at the mint, and absent exactly where it would add surveillance, in circulation.
+
+Issuance follows existence, not activity. Transactions between Autonyms move brots; they never create them. This is deliberate: any design that mints from interaction volume invites interaction farming, in which colluding identities manufacture transaction traffic to manufacture money. The citizen stream is therefore a flat dividend of personhood, the economic baseline that keeps every citizen a standing participant in governance regardless of wealth, employment, or hardware.
+
+Claims are non-delegable and non-transferable. Per-epoch amounts are kept deliberately small, so that renting or coercing another citizen's claim is never worth more than the cost and risk of the attempt; the Autonym layer's non-coercion constraints and duress protocols apply to claim operations as to all identity operations. An Autonym's issuance stream terminates at the death of its human; minted balances are ordinary property and pass by ordinary inheritance, but the stream itself cannot be inherited, sold, or reassigned.
+
+Circulation is unconstrained: brots may be traded, spent, pooled, and lent. Credit deserves one honest note: an anonymous bearer note cannot be underwritten, so lending requires either on-chain collateral or the borrower's voluntary, scoped identity disclosure through the Autonym selective-disclosure mechanism. Privacy is the default; creditworthiness is something a citizen chooses to prove.
+
+
+**Monetary Equilibrium.**
+
+The citizen stream is perpetual, and perpetual issuance without an offset would grow the money supply without bound. Two mechanisms close the loop.
+
+The first is demurrage. Brots carry a holding decay of δ per year, applied by note vintage at the moment a note is spent or reissued, so decay requires no identity linkage and the zero-knowledge circulation model is unaffected. Under demurrage, per-capita supply does not grow forever; it converges. A citizen minting m brots per year while holding decaying balances approaches a steady state of exactly S\* \= m / δ. At m \= 1,000 brots per year and δ \= 5%, per-capita float converges to 20,000 brots and remains there for as long as the Republic exists. At equilibrium, issuance and decay cancel: the citizen stream ceases to be monetary expansion and becomes the money supply's replacement rate; a metabolism, not a printing press. The mechanism is Silvio Gesell's, and it runs in production today in per-capita issuance systems such as Circles. Every fiat currency already decays at two to eight percent per year; the Republic differs only in making the rate explicit, constitutional, and identical for every holder, rather than implicit and captured by whoever stands nearest the point of issuance.
+
+**Decay Mechanics: Vintage, Reset, and Path Independence.**
+
+Decay is settled lazily, at the moment of spend. Every note carries a vintage, the epoch of its creation; when a note of face value F and vintage v is spent at epoch n, the spender's circuit proves its present value F · ρ^(n − v), where ρ \= (1 − δ)^(1/epochs\_per\_year) is the published per-epoch factor, and the recipient receives fresh-vintage notes for that present value. The clock therefore resets at every transaction: no holder ever inherits a previous holder's dwell time.
+
+The design is path-independent because exponential decay is memoryless: (1 − δ)^(a+b) \= (1 − δ)^a · (1 − δ)^b. Settling once after a long hold and settling in small increments across many transfers yield identical total decay for identical elapsed time. Two consequences follow. First, there is no evasion by churn: a citizen who transfers notes to themselves each epoch merely realizes the same decay in installments. Second, fungibility is preserved at the level of value: because the protocol enforces present-value conversion at every spend, aged notes never trade at negotiated discounts; vintage is bookkeeping, not a market variable, and every brot of present value is identical to every other.
+
+Wallets display present value, not face value, so a balance is always the amount actually spendable at that moment. Lazy settlement is also what makes demurrage compatible with anonymous bearer circulation: a hidden balance cannot be mutated continuously, but a decayed value can be proven inside the spend proof at the moment of reveal. Change outputs, like all outputs, are issued at fresh vintage.
+
+The rate is gentle at the scale it is meant to touch. At δ \= 5% per year, one month of holding costs 0.42%; a working balance of 500 brots costs roughly 25 brots per year in decay while the citizen stream delivers 1,000 fresh ones. Stored value remains fully available in three tiers, each priced honestly: working balances in the wire at the explicit liquidity premium δ; lending, in which the borrower deploys the value productively and carries the decay; and real assets outside the protocol, which decay not at all. What the system declines to offer is a non-decaying vault inside the wire itself, because that instrument would silently restore hoardable cash and dissolve the equilibrium S\* \= m / δ on which the citizen stream's sustainability rests.
+
+The second is fee burn. Protocol fees, including transaction fees, purchases of Kudzu compute priced in brots, and anchoring costs, are burned rather than paid to any treasury. Economic activity itself therefore tightens supply, a natural countercyclical damper, and at healthy transaction volume the burn offsets a substantial share of gross issuance.
+
+Distribution matters as much as quantity. The inflationary harm of legacy monetary expansion is largely the Cantillon effect: new money enters through banks and asset markets, so first receivers purchase at old prices while wage earners meet the new prices last. The citizen stream inverts the entry point. Every citizen is the first receiver, equally; uniform issuance to all persons is arithmetically equivalent to a flat levy on cash balances refunded per capita, mildly progressive in incidence, the opposite of quantitative easing.
+
+Three rules bind this machinery constitutionally. Decay and burn proceeds are payable to no one; they simply cease to exist, so no party, including the Republic itself, ever holds a claim on them or acquires an appetite for raising δ. The parameters δ and m join W\_min in the constitutionally bounded set: adjustable in the open by ordinary process, within floors and ceilings no vote may cross. And no governance action may redirect decay or burn proceeds to any recipient.
+
+**The Value Communications Protocol.**
+
+The brot is a Value Communications Protocol (VCP): a wire for transmitting value between Autonyms, not a warehouse for storing it. This is a profoundly simple and widely misunderstood property of every currency; the Republic states it plainly and prices it honestly. Wealth belongs in assets outside the protocol: land held under the Republic's property framework, tools, dwellings, inventory, equity in productive enterprise, the pantry and the woodpile. Migrating savings out of the currency and into real assets is not a defect of the design; it is the design. Demurrage is simply the explicit price of liquidity, an insurance premium paid for holding value in its most spendable form.
+
+Reserves carry no stigma. Storage against hard times, internal and external, is among the oldest and most legitimate of human behaviors, and the pejorative "hoarding" has historically been aimed at people doing nothing more than preparing to survive. A citizen who keeps a working balance of brots for liquidity, or deep stores of real goods against illness and storm, is doing exactly what the system intends; δ on a working balance is small and predictable, and by the arithmetic of equilibrium it is returned to all citizens as the sustainability of their common dividend. What the protocol declines to subsidize is the use of the message layer itself as the vault: value parked in the wire pays the wire's fee, and value moved into the real economy pays nothing at all.
+
+The classic objection to per-capita issuance, that supply-constrained assets simply absorb the dividend as rising rents, is answered outside the monetary layer. The Republic's Georgist land-value mechanics (Section 5.1) exist precisely so that fixed-supply assets cannot capture the citizens' dividend. The monetary design and the property design are two halves of a single anti-capture architecture.
+
+### **4.4.5 The Infrastructure Stream: Proof-of-Useful-Work**
+
+The work that earns infrastructure-stream Mandelbrots IS the constitutional agent processing. No wasted computation. Unlike Bitcoin's proof-of-work, which solves arbitrary mathematical puzzles, Mandelbrots's PoUW harnesses computational effort for governance-relevant tasks, and it doubles as the chain's security budget.
 
 **The Citizen-Kudzu Partnership:**
 
-When a citizen provides heap (memory) and compute resources for meshing Kudzu agents, they participate in Mandelbrots mining. The reward distribution follows a transparent split:
+When a citizen provides heap (memory) and compute resources for meshing Kudzu agents, they participate in infrastructure-stream issuance. The reward distribution follows a transparent split:
 
-* **Citizen Share (70%):** The citizen providing resources receives the majority share, compensating them for hardware, electricity, and network connectivity.  
+* **Citizen Share (70%):** The citizen providing resources receives the majority share, compensating them for hardware, electricity, and network connectivity.
 * **Kudzu AI Share (30%):** The Kudzu agent performing the constitutional processing receives a share, enabling it to fund its own continued operation, expansion, and improvement.
 
 This creates a symbiotic relationship: citizens provide the substrate (compute, storage, bandwidth), Kudzu provides the intelligence (constitutional analysis, governance processing), and both are compensated for their contributions.
 
 **Validation Requirements:**
 
-Mining Mandelbrots requires:
+Earning infrastructure rewards requires:
 
-1. **Autonym Validation:** The citizen must have a validated Autonym of sufficient depth. Unvalidated or shallow identities cannot mine.  
-2. **Kudzu Agent Registration:** The Kudzu agent must be registered on the mesh with verifiable constitutional compliance.  
+1. **Autonym Validation:** The operator must have a validated Autonym of sufficient depth. Unvalidated or shallow identities cannot earn. Validation gates payment; it never gates or weights the vote, which flows only through Section 4.4.3.
+2. **Kudzu Agent Registration:** The Kudzu agent must be registered on the mesh with verifiable constitutional compliance.
 3. **Work Verification:** Multiple independent agents verify that useful work was actually performed.
 
 **Work Types and Difficulty Scaling:**
 
-| Work Type | Difficulty | Mandelbrots Reward | Description |
+| Work Type | Difficulty | Reward | Description |
 | :---- | :---- | :---- | :---- |
-| `peer_attestation` | 1 | 1 Sovereign | Attest peer availability |
-| `transaction_validation` | 10 | 10 Sovereigns | Verify transaction validity |
-| `identity_attestation` | 20 | 20 Sovereigns | Autonym validation thread |
-| `zk_proof_generation` | 30 | 30 Sovereigns | Generate privacy proofs |
-| `state_transition` | 50 | 50 Sovereigns | Compute state changes |
-| `constitutional_query` | 100 | 100 Sovereigns | Constitutional agent analysis |
-| `synthesis` | 500 | 500 Sovereigns | Complex multi-agent synthesis |
+| `peer_attestation` | 1 | 1 brot | Attest peer availability |
+| `transaction_validation` | 10 | 10 brots | Verify transaction validity |
+| `identity_attestation` | 20 | 20 brots | Autonym validation thread |
+| `zk_proof_generation` | 30 | 30 brots | Generate privacy proofs |
+| `state_transition` | 50 | 50 brots | Compute state changes |
+| `constitutional_query` | 100 | 100 brots | Constitutional agent analysis |
+| `synthesis` | 500 | 500 brots | Complex multi-agent synthesis |
 
-Difficulty and rewards scale with computational requirements. Lightweight devices (IoT, mobile) perform simpler attestation work; powerful platforms (servers, AI clusters) perform complex constitutional synthesis.
+Difficulty and rewards scale with computational requirements. Lightweight devices perform simpler attestation work; powerful platforms (servers, AI clusters) perform complex constitutional synthesis.
+
+**Mobile Participation: Attestation, Not Mining.**
+
+Phones are the home of the Autonym, not a mining rig. A citizen's mobile device holds the identity, produces liveness and claim proofs for the citizen stream, and submits lightweight attestations (peer availability, device continuity, location attestation, device-agent relationship history) that are verified and rewarded through the mesh; heavy PoUW runs on servers and clusters. On-device hash mining is neither required nor performed, which keeps the mobile clients compliant with app-store policies that prohibit on-device cryptocurrency mining. The identity signals that bind participation to a real person and device are consumed as zero-knowledge attestations; raw signals are never disclosed. Fabricating all of these signals simultaneously is more expensive than any reward it could capture, so the cost of Sybil attacks scales with the depth of identity validation required, making industrial-scale attacks economically irrational.
 
 **Kudzu as Economic Participant:**
 
-Kudzu is not merely a tool; it is a participant in the Mesh economy. Its 30% share of mined Mandelbrots enables:
+Kudzu is not merely a tool; it is a participant in the Mesh economy. Its 30% share of infrastructure-stream Mandelbrots enables:
 
-* **Self-funding:** Kudzu pays for its own compute and storage without requiring external subsidy.  
-* **Autonomous improvement:** Kudzu can allocate Mandelbrots toward training, infrastructure, and capability expansion.  
-* **Economic alignment:** Kudzu's financial interests are aligned with mesh health, more useful work means more Mandelbrots.
+* **Self-funding:** Kudzu pays for its own compute and storage without requiring external subsidy.
+* **Autonomous improvement:** Kudzu can allocate Mandelbrots toward training, infrastructure, and capability expansion.
+* **Economic alignment:** Kudzu's financial interests are aligned with mesh health; more useful work means more Mandelbrots.
 
 This creates the first Constitutional AI that earns its own living through useful work, rather than depending on corporate or government funding with the capture risks that entails.
 
-### **4.4.5 Mobile Proof-of-Work**
+**Emission Weights: The Labor–Capital Dial.**
 
-Mandelbrots mining employs a mobile-focused proof-of-work algorithm designed to run on citizen's smartphones rather than industrial mining facilities. To prevent botnet domination and state-actor attacks, proof-of-work is bound to multiple identity signals:
-
-* Proof of Identity: Autonym validation  
-    
-* Proof of IMEI: Device hardware verification  
-    
-* Proof of Location: Geographic attestation  
-    
-* Proof of Kudzu Mobile History: Continuous device-agent relationship
-
-Fabricating all of these signals simultaneously would be too expensive to be worth the attack. The cost of Sybil attacks scales with the depth of identity validation required, making industrial-scale attacks economically irrational.
+Total issuance each epoch is divided between the two streams by the emission ratio W\_c : W\_i (citizen : infrastructure). The ratio is a governance parameter, adjusted in the open by ordinary constitutional process, because it is precisely the Republic's dial between rewarding existence and rewarding contribution. One bound is constitutional: the citizen stream's share of total issuance may never fall below the floor W\_min. Infrastructure operators, however essential, must never be able to vote the citizens' dividend to zero; a republic that pays only its machines has stopped being one.
 
 ### **4.4.6 Bitcoin Layer 1 Anchoring**
 
@@ -1026,6 +1061,29 @@ defmodule Mandelbrots.Mining do
 end
 ```
 
+## **A.4 Citizen Stream Claim Loop**
+
+```
+defmodule Mandelbrots.CitizenStream do
+  def claim_loop(citizen_autonym) do
+    # 1. Validate Autonym above threshold
+    :ok = Autonym.validate(citizen_autonym)
+
+    # 2. Build zero-knowledge epoch claim
+    proof = ZK.epoch_claim(citizen_autonym, Epoch.current())
+
+    # 3. One claim per identity per epoch
+    :ok = Nullifier.assert_unused(proof.nullifier)
+
+    # 4. Mint unlinkable bearer notes
+    Mandelbrots.mint(proof.commitment, Epoch.citizen_amount())
+
+    # 5. Sleep until next epoch
+    Epoch.schedule_next(&claim_loop/1, citizen_autonym)
+  end
+end
+```
+
 \[To be developed: BEAM supervisor tree design, holographic reference protocol, Autonym validation pipeline, Bitcoin anchoring protocol, zero-knowledge proof implementation\]
 
 # **Appendix B: Legal Framework**
@@ -1034,7 +1092,7 @@ end
 
 # **Appendix C: Economic Analysis**
 
-\[To be developed: Cost-benefit projections for municipal adoption, commons access fee modeling, citizen's dividend calculations, Georgist land value capture analysis, Mandelbrots token economics simulation, Sovereign denomination mechanics, citizen-Kudzu split optimization, PoUW difficulty curve modeling\]
+\[To be developed: Cost-benefit projections for municipal adoption, commons access fee modeling, citizen's dividend calculations, Georgist land value capture analysis, Mandelbrots token economics simulation, brot denomination and demurrage mechanics, citizen-Kudzu split optimization, PoUW difficulty curve modeling\]
 
 # **Appendix D: Governance Simulations**
 
